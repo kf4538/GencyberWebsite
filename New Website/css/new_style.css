@@ -1,0 +1,233 @@
+/***********************************
+Navigation bar
+************************************/
+.navbar-default{
+    padding: 5px 0px;
+}
+.navbar-default .navbar-brand {
+    color: #5F9F9F;
+}
+.navbar-default {
+    background-color: #ffffff;
+}
+.course-text{
+    padding: 84px;
+}
+.navbar-default .navbar-brand {
+    font-weight: 700;
+    padding: 5px;
+    height: inherit;
+    font-size: 42px;
+    float: none;
+    margin: auto;
+    display: inline;
+    text-align: center;
+}
+.navbar-default .navbar-header{
+    margin: 20px 0px;
+    text-align: center;
+}
+.navbar {
+    margin-bottom: 0px;
+    background-color: #9fbdd5;
+    font-family: 'Dosis', sans-serif !important;
+    position: sticky;
+}
+.padding-zero{
+    padding: 0px;
+}
+.mart20{
+    margin-top: 20px;
+}
+.sponsorImg{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: -15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: sticky;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:15px;
+}
+
+li a:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+li a:active {
+    background-color: white;
+}
+
+/***********************************
+Hero
+************************************/
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/girlsBanner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size:5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: #9fbdd5BF;
+}
+
+.hero .btn a:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+/***********************************
+Banner
+************************************/
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/rit.jpg');
+    background-size: cover;
+    min-height: 200px;
+    position: relative;
+}
+
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.25);
+    min-height: 200px;
+}
+
+.banner-text{
+    color: #fff;
+    font-size: 100px;
+}
+
+.tagline{
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 150px;
+}
+.intro-para{
+    margin-top: 30px;
+}
+.padleft-right{
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.big-text{
+    font-size: 35px;
+}
+.small-text{
+    font-size: 22px;
+}
+
+/***********************************
+Footer
+************************************/
+#ritfooter{
+    background-color: #000000;
+    color:#ffffff;
+    padding:10px;
+    font-size: 13px;
+}
+#ritfooter a {
+    color: #919191;
+}
+
+/***********************************
+Transitions/Fades
+************************************/
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+}
