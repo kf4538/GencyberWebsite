@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<body style="background-color:#005b96" >
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #011f4b;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 34px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+.topnav a.active {
+  background-color: #92a8d1;
+  color: white;
+}
+
+#logo {
+  height: 100px;
+  vertical-align: middle;
+}
+
+#logo2 {
+  height: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+  
+}
+
+</style>
+</head>
+<body align ="center">
+
+<div class="topnav">
+  
+  <a>
+  <img id="logo" src="gencyber-logo-small.png" alt="Logo" align="left">
+</a>
+<a></a>
+<a></a>
+<a>
+  <img id="logo2" src="RIT.png" alt="Logo"  class="center">
+</a>
+
+
+</div>
+
+<h1 style="color:#b3cde0;" >Caesar Cipher</h1>
+
+
+<script language="JavaScript">
+function c_ciph(){
+  var f = document.getElementById("key").value;
+  var x = document.getElementById("myTextArea").value;
+  var key1 = Number(f)
+  console.log(key1);
+  var result='';
+  for (var i = 0, len = x.length; i < len; i++) {
+    if (x[i] == x[i].toUpperCase()){
+      var a = x[i].charCodeAt(0);
+      var e = (((a - 65 + key1) % 26) + 97);
+      result = result + String.fromCharCode(e).toUpperCase();
+    }
+    else if (x[i] == x[i].toLowerCase()){
+      var a = x[i].charCodeAt(0);
+      var e = (((a - 97 + key1) % 26) + 97);
+      result = result + String.fromCharCode(e);
+    }
+    else {
+      result = result + x[i];
+    }
+  }
+  document.getElementById('result').value = result ;
+}
+</script>
+
+<div>
+<textarea id = "myTextArea" rows = "6" cols = "80">
+</textarea>
+</div class="input">
+
+<div class="user">
+<label style="color:#b3cde0" "text-align:center;">Key</label>
+<input type = "number" id = "key" min="-26" max="25"/>
+
+<button onclick="c_ciph()">Convert</button>
+</div>
+
+<div class="resulta">
+  <textarea id = "result" rows = "6" cols = "80">
+  </textarea>
+</div>
+
