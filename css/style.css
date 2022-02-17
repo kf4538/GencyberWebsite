@@ -191,14 +191,13 @@ Eligibility
 .column {
     float: left;
     width: 33.33%;
+    font-size: 20px;
   }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.c2 {
+    float: left;
+    width: 33.33%;
+    font-size: 14px;
+}
 
 /***********************************
 Apply
