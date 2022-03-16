@@ -185,6 +185,22 @@ Eligibility
 .icon-box, .icon-text {
     padding: 20px 0px 0px;
 }
+/***********************************
+ Instructors
+************************************/
+.column {
+    float: left;
+    width: 33.33%;
+    font-size: 20px;
+  }
+.c2 {
+    float: left;
+    width: 33.33%;
+    font-size: 14px;
+}
+.img-profs{
+    width: 30%;
+}
 
 /***********************************
 Apply
