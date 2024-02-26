@@ -5,7 +5,7 @@ body {
     font-weight: 400;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -20,7 +20,7 @@ table {
 	border-spacing: 0;
 }
 .section-padding{
-	padding: 60px 0px;
+	padding: 30px 0px;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
@@ -60,7 +60,7 @@ Navigation bar
     text-align: center;
 }
 .navbar-default .navbar-header{
-    margin: 20px 0px;
+    margin: 45px 0px 0px 0px;
     text-align: center;
 }
 .navbar {
@@ -86,6 +86,12 @@ Banner
     background-size: cover;
     min-height: 500px;
     position: relative;
+}
+.girls{
+    background: url('../img/girlsBanner.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 500px;
+    text-align: center;
 }
 .girls .banner{
     background: url('../img/girlsBanner.jpg') no-repeat center top;
@@ -156,6 +162,7 @@ Eligibility
 }
 .note{
     color: #cc3300;
+    text-align: center;
 }
 .eligible-image .img-thumbnail{
     min-width: 100%;
@@ -172,7 +179,7 @@ Eligibility
 }
 .service-box{
     background: #fff;
-    padding: 60px 30px 80px;
+    padding: 60px 30px 60px;
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
 }
 .icon-box i {
@@ -187,20 +194,21 @@ Eligibility
 }
 /***********************************
  Instructors
-************************************/
+************************************/   
 .column {
     float: left;
-    width: 33.33%;
+    width: 50%  ;
     font-size: 20px;
   }
 .c2 {
     float: left;
-    width: 33.33%;
+    width: 50%;
     font-size: 14px;
 }
 .img-profs{
-    height: 30%;
-    width: 30%;
+    margin: 0% 6.66% 0% 6.66%;
+    height: 33%;
+    width: 33%;
 }
 
 /***********************************
@@ -231,6 +239,14 @@ p.det-p {
     color: #5F9F9F;
     border-color: #fff;
 }
+/***********************************
+What to Expect
+***********************************/
+#whattoexpect{
+    background-color: white;
+}
+
+
 
 /***********************************
 FAQ
