@@ -11,11 +11,12 @@ p {
 Navigation bar
 ************************************/
 .navbar-link {
+    display: block;
     text-decoration: none;
     margin-left: 20px;
-    padding: 10px;
     color: grey;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .navbar-link:hover {
@@ -25,6 +26,20 @@ Navigation bar
 .navbar-link.active {
     background-color: #5F9F9F;
     color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #333;
+}
+.nav-link:hover {
+    color: #007bff;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    outline: none;
 }
 
 /***********************************
