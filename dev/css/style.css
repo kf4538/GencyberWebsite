@@ -71,7 +71,18 @@ Banner
 About
 ************************************/
 
+/***********************************
+Application
+************************************/
+#applyLink{
+    background-color: #5F9F9F;
+    color: white;
+    padding: 15px;
+}
 
+#applyLink:hover{
+    text-decoration: underline;
+}
 
 /***********************************
 Footer
